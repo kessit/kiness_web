@@ -13,7 +13,7 @@
 #######################################################################################
 
 # Example shared files and folders:
- shared_files: [ web/sites/default/settings.php ]
+shared_files: [ web/sites/default/settings.php ]
 # shared_folders: [ web/sites/default ]
 
 # Hooks should be Bash shell scripts and get executed at different stages during deploy
