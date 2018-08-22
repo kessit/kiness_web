@@ -36,7 +36,7 @@ hooks:
   sharedsymlink_before: |
     exit 0
   sharedsymlink_after: |
-    SYMFONY_ENV=prod composer install --no-dev --classmap-authoritative
+    composer install
     exit 0
 
 # SYMLINK: Set current symlink to newest release
