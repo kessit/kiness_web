@@ -29,6 +29,7 @@ hooks:
   install_before: |
     exit 0
   install_after: |
+    rm -Rf web/sites/default/ # Get rid of the git var folder
     exit 0
 
 # SHAREDSYMLINK: Create symlink to shared files and folders
